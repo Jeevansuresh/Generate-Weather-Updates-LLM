@@ -4,14 +4,14 @@ from datetime import datetime
 import mysql.connector
 
 # --- Gemini API Configuration ---
-GEMINI_API_KEY = "AIzaSyCRbnEmx-3tgblNCzwFc5EE5CiQ_IBipYk"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # --- MySQL Configuration ---
 DB_HOST = "localhost"
-DB_USER = "root"
-DB_PASSWORD = "Skyno@1978"
+DB_USER = "jagi"
+DB_PASSWORD = "Padjagi75$"
 DB_NAME = "weather"
 
 def get_weather_data_gemini(city, current_date_str):
