@@ -3,8 +3,10 @@ import pandas as pd
 from datetime import datetime
 import mysql.connector
 
+# Import API key from config.py
+from config import GEMINI_API_KEY
+
 # --- Gemini API Configuration ---
-GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
