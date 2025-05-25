@@ -1,0 +1,9 @@
+location,time_period,temperature_celsius,rain_probability_percent
+Chennai,morning,28,20
+Chennai,afternoon,35,10
+Chennai,evening,30,15
+Chennai,night,27,5
+Kolkata,morning,28,20
+Kolkata,afternoon,34,30
+Kolkata,evening,30,25
+Kolkata,night,27,15
